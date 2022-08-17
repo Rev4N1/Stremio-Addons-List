@@ -1,0 +1,129 @@
+[
+  {
+     "transportUrl":"https://torrentio.strem.fun/lite/manifest.json",
+     "transportName":"http",
+     "manifest": {
+       "id":"com.stremio.torrentio.lite.addon",
+       "version":"0.0.12",
+       "name":"Torrentio Lite",
+       "description":"Preconfigured Lite version of Torrentio addon. To configure advanced options visit https://torrentio.strem.fun/lite",
+       "catalogs":[
+
+       ],
+       "resources":[
+          {
+             "name":"stream",
+             "types":[
+                "movie",
+                "series"
+             ],
+             "idPrefixes":[
+                "tt",
+                "kitsu"
+             ]
+          }
+       ],
+       "types":[
+          "movie",
+          "series",
+          "other"
+       ],
+       "background":"https://i.ibb.co/VtSfFP9/t8wVwcg.jpg",
+       "logo":"https://i.ibb.co/w4BnkC9/GwxAcDV.png",
+       "behaviorHints":{
+          "configurable":true,
+          "configurationRequired":false
+       }
+    }
+  },
+  {
+     "transportUrl":"https://cartoonextra.unlimited-fun.xyz/manifest.json",
+     "transportName":"http",
+     "manifest":{
+        "id":"com.sleeyax.cartoonextra",
+        "name":"Cartoon Extra",
+        "version":"0.0.1",
+        "description":"Watch free HTTP streams of cartoons from cartoonextra",
+        "logo":"https://i.imgur.com/aSI1e79.png",
+        "types":[
+           "series"
+        ],
+        "resources":[
+           "stream"
+        ],
+        "catalogs":[
+
+        ],
+        "idPrefixes":[
+           "tt"
+        ]
+     }
+  },
+  {
+     "transportUrl":"https://wco.unlimited-fun.xyz/manifest.json",
+     "transportName":"http",
+     "manifest":{
+        "id":"com.sleeyax.wco",
+        "name":"Watch Cartoon Online",
+        "version":"0.0.2",
+        "description":"Watch HD and SD cartoons from thewatchcartoononline.tv",
+        "logo":"https://www.wcofun.com/logo.gif",
+        "background":"https://i.imgur.com/ERLkgpY.png",
+        "types":[
+           "series"
+        ],
+        "resources":[
+           "stream"
+        ],
+        "catalogs":[
+
+        ],
+        "idPrefixes":[
+           "tt"
+        ]
+     }
+  },
+  {
+     "transportUrl":"https://1fe84bc728af-abtors.baby-beamup.club/manifest.json",
+     "transportName":"http",
+     "manifest":{
+        "id":"org.stremio.abtors",
+        "version":"1.0.1",
+        "name":"Audio Book Torrents",
+        "logo":"https://johnserv531.github.io/gh-images/1586345452.png",
+        "description":"100+ free audio books. This add-on is based on torrents.",
+        "resources":[
+           "catalog",
+           "meta",
+           "stream"
+        ],
+        "types":[
+           "channel"
+        ],
+        "catalogs":[
+           {
+              "type":"channel",
+              "id":"abt_catalog",
+              "name":"Audio Book Torrents",
+              "genres":[
+
+              ],
+              "extra":[
+                 {
+                    "name":"genre"
+                 },
+                 {
+                    "name":"skip"
+                 },
+                 {
+                    "name":"search"
+                 }
+              ]
+           }
+        ],
+        "idPrefixes":[
+           "abt_"
+        ]
+     }
+  }
+]
