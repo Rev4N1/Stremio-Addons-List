@@ -37,6 +37,40 @@
     }
   },
   {
+     "transportUrl":"https://peerflix-235ac-default-rtdb.europe-west1.firebasedatabase.app/manifest.json",
+     "transportName":"http",
+     "manifest": {
+       "id":"org.keopps.peerflix",
+       "version":"1.2.0",
+       "name":"Peerflix",
+       "description":"Peerflix addon to fetch movies and series torrents from different sources. With content mostly in English and Spanish (from Spain).",
+       "catalogs":[
+
+       ],
+       "resources":[
+          {
+             "name":"stream",
+             "types":[
+                "movie",
+                "series"
+             ],
+             "idPrefixes":[
+                "tt"
+             ]
+          }
+       ],
+       "types":[
+          "movie",
+          "series"
+       ],
+       "logo":"https://play-lh.googleusercontent.com/E1S8D-ckRQiZUT5RnaAR4d5my95HH6ykCiOeuMVt54Q6QcWv8Rq_MNoveHKBiiJtN1w=w240-h480-rw",
+       "behaviorHints":{
+          "configurable":false,
+          "configurationRequired":false
+       }
+    }
+  },
+  {
      "transportUrl":"https://cartoonextra.unlimited-fun.xyz/manifest.json",
      "transportName":"http",
      "manifest":{
