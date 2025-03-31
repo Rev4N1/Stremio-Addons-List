@@ -1,12 +1,12 @@
 [
   {
-     "transportUrl":"https://torrentio.strem.fun/lite/manifest.json",
+     "transportUrl":"stremio://torrentio.strem.fun/providers=yts,eztv,rarbg,1337x,thepiratebay,kickasstorrents,torrentgalaxy,magnetdl,horriblesubs,nyaasi,tokyotosho,anidex|qualityfilter=scr,cam/manifest.json",
      "transportName":"http",
      "manifest": {
-       "id":"com.stremio.torrentio.lite.addon",
-       "version":"0.0.12",
-       "name":"Torrentio Lite",
-       "description":"Preconfigured Lite version of Torrentio addon. To configure advanced options visit https://torrentio.strem.fun/lite",
+       "id":"com.stremio.torrentio.addon",
+       "version":"0.0.15",
+       "name":"Torrentio",
+       "description":"Provides torrent streams from scraped torrent providers. Currently supports YTS(+), EZTV(+), RARBG(+), 1337x(+), ThePirateBay(+), KickassTorrents(+), TorrentGalaxy(+), MagnetDL(+), HorribleSubs(+), NyaaSi(+), TokyoTosho(+), AniDex(+), Rutor(-), Rutracker(-), Comando(-), BluDV(-), Torrent9(-), ilCorSaRoNeRo(-), MejorTorrent(-), Wolfmax4k(-), Cinecalidad(-), BestTorrents(-). To configure providers, RealDebrid/Premiumize/AllDebrid/DebridLink/EasyDebrid/Offcloud/TorBox/Put.io support and other settings visit https://torrentio.strem.fun",
        "catalogs":[
 
        ],
@@ -15,7 +15,8 @@
              "name":"stream",
              "types":[
                 "movie",
-                "series"
+                "series",
+				"anime"
              ],
              "idPrefixes":[
                 "tt",
@@ -26,138 +27,15 @@
        "types":[
           "movie",
           "series",
+          "anime",
           "other"
        ],
-       "background":"https://i.ibb.co/VtSfFP9/t8wVwcg.jpg",
-       "logo":"https://i.ibb.co/w4BnkC9/GwxAcDV.png",
+       "background":"https://torrentio.strem.fun/images/background_v1.jpg",
+       "logo":"https://torrentio.strem.fun/images/logo_v1.png",
        "behaviorHints":{
           "configurable":true,
           "configurationRequired":false
        }
     }
-  },
-  {
-     "transportUrl":"https://peerflix-235ac-default-rtdb.europe-west1.firebasedatabase.app/manifest.json",
-     "transportName":"http",
-     "manifest": {
-       "id":"org.keopps.peerflix",
-       "version":"1.2.0",
-       "name":"Peerflix",
-       "description":"Peerflix addon to fetch movies and series torrents from different sources. With content mostly in English and Spanish (from Spain).",
-       "catalogs":[
-
-       ],
-       "resources":[
-          {
-             "name":"stream",
-             "types":[
-                "movie",
-                "series"
-             ],
-             "idPrefixes":[
-                "tt"
-             ]
-          }
-       ],
-       "types":[
-          "movie",
-          "series"
-       ],
-       "logo":"https://play-lh.googleusercontent.com/E1S8D-ckRQiZUT5RnaAR4d5my95HH6ykCiOeuMVt54Q6QcWv8Rq_MNoveHKBiiJtN1w=w240-h480-rw",
-       "behaviorHints":{
-          "configurable":false,
-          "configurationRequired":false
-       }
-    }
-  },
-  {
-     "transportUrl":"https://cartoonextra.unlimited-fun.xyz/manifest.json",
-     "transportName":"http",
-     "manifest":{
-        "id":"com.sleeyax.cartoonextra",
-        "name":"Cartoon Extra",
-        "version":"0.0.1",
-        "description":"Watch free HTTP streams of cartoons from cartoonextra",
-        "logo":"https://i.imgur.com/aSI1e79.png",
-        "types":[
-           "series"
-        ],
-        "resources":[
-           "stream"
-        ],
-        "catalogs":[
-
-        ],
-        "idPrefixes":[
-           "tt"
-        ]
-     }
-  },
-  {
-     "transportUrl":"https://wco.unlimited-fun.xyz/manifest.json",
-     "transportName":"http",
-     "manifest":{
-        "id":"com.sleeyax.wco",
-        "name":"Watch Cartoon Online",
-        "version":"0.0.2",
-        "description":"Watch HD and SD cartoons from thewatchcartoononline.tv",
-        "logo":"https://www.wcofun.com/logo.gif",
-        "background":"https://i.imgur.com/ERLkgpY.png",
-        "types":[
-           "series"
-        ],
-        "resources":[
-           "stream"
-        ],
-        "catalogs":[
-
-        ],
-        "idPrefixes":[
-           "tt"
-        ]
-     }
-  },
-  {
-     "transportUrl":"https://1fe84bc728af-abtors.baby-beamup.club/manifest.json",
-     "transportName":"http",
-     "manifest":{
-        "id":"org.stremio.abtors",
-        "version":"1.0.1",
-        "name":"Audio Book Torrents",
-        "logo":"https://johnserv531.github.io/gh-images/1586345452.png",
-        "description":"100+ free audio books. This add-on is based on torrents.",
-        "resources":[
-           "catalog",
-           "meta",
-           "stream"
-        ],
-        "types":[
-           "channel"
-        ],
-        "catalogs":[
-           {
-              "type":"channel",
-              "id":"abt_catalog",
-              "name":"Audio Book Torrents",
-              "genres":[
-
-              ],
-              "extra":[
-                 {
-                    "name":"genre"
-                 },
-                 {
-                    "name":"skip"
-                 },
-                 {
-                    "name":"search"
-                 }
-              ]
-           }
-        ],
-        "idPrefixes":[
-           "abt_"
-        ]
-     }
   }
 ]
